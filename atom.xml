@@ -52,11 +52,11 @@
   </entry>
   
   <entry>
-    <title>caffe with ubuntu14.04</title>
+    <title>Caffe with Ubuntu14.04</title>
     <link href="http://yoursite.com/2016/06/04/caffe/"/>
     <id>http://yoursite.com/2016/06/04/caffe/</id>
     <published>2016-06-03T16:11:40.000Z</published>
-    <updated>2016-06-04T03:34:33.816Z</updated>
+    <updated>2016-06-04T04:53:13.092Z</updated>
     
     <content type="html">&lt;p&gt;Following the guidance of &lt;a href=&quot;http://caffe.berkeleyvision.org/install_apt.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Caffe Official WebSite&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Dependencies&quot;&gt;&lt;a href=&quot;#Dependencies&quot; class=&quot;headerlink&quot; title=&quot;Dependencies&quot;&gt;&lt;/a&gt;Dependencies&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install --no-install-recommends libboost-all-dev&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
