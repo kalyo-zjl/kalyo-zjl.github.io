@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/06/03/Hexo/</loc>
+    <loc>http://yoursite.com/2016/06/04/github/</loc>
     
-    <lastmod>2016-06-03T15:59:07.451Z</lastmod>
+    <lastmod>2016-06-04T03:47:49.024Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/06/03/github/</loc>
+    <loc>http://yoursite.com/2016/06/04/caffe/</loc>
     
-    <lastmod>2016-06-03T15:58:57.171Z</lastmod>
+    <lastmod>2016-06-04T03:34:33.816Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/03/Hexo/</loc>
+    
+    <lastmod>2016-06-03T15:59:07.451Z</lastmod>
     
   </url>
   
