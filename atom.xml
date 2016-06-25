@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-19T06:09:35.059Z</updated>
+  <updated>2016-06-25T04:43:59.523Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo</title>
+    <link href="http://yoursite.com/2016/06/25/Hexo/"/>
+    <id>http://yoursite.com/2016/06/25/Hexo/</id>
+    <published>2016-06-25T04:43:59.567Z</published>
+    <updated>2016-06-25T04:43:59.523Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install git	&lt;span class=&quot;comment&quot;&gt;#安装git&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ curl &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt;L https://deb.nodesource.com/setup_6.x | sudo -E bash -&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install -y nodejs	&lt;span class=&quot;comment&quot;&gt;#安装Node.js v6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo npm install -g hexo-cli	&lt;span class=&quot;comment&quot;&gt;#安装hexo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;安装hexo-browsersync&quot;&gt;&lt;a href=&quot;#安装hexo-browsersync&quot; class=&quot;headerlink&quot; title=&quot;安装hexo-browsersync&quot;&gt;&lt;/a&gt;安装hexo-browsersync&lt;/h2&gt;&lt;p&gt;装这个的目的是为了在vim下编辑md文件的时候可以在网页端进行实时显示&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-browsersync --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;不过后来发现在linux下还不如用&lt;strong&gt;Remarkable&lt;/strong&gt;进行md文件的编辑&lt;/p&gt;
+&lt;h2 id=&quot;Hexo-github&quot;&gt;&lt;a href=&quot;#Hexo-github&quot; class=&quot;headerlink&quot; title=&quot;Hexo-github&quot;&gt;&lt;/a&gt;Hexo-github&lt;/h2&gt;&lt;p&gt;将本地的推到github上，在github上新建仓库名为&lt;br&gt;kalyo-zjl.github.io，固定写法，然后编辑_config.yml文件&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt;: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  repo: https://github.com/kalyo-zjl/kalyo-zjl.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;安装git的deployer&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;执行hexo deloy,public文件夹下的内容会被push到上面的repo中&lt;br&gt;这样，就可以通过在浏览器中输入 &lt;a href=&quot;http://kalyo-zjl.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://kalyo-zjl.github.io&lt;/a&gt; 来访问&lt;/p&gt;
+&lt;h2 id=&quot;Hexo主题&quot;&gt;&lt;a href=&quot;#Hexo主题&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题&quot;&gt;&lt;/a&gt;Hexo主题&lt;/h2&gt;&lt;p&gt;简洁方便的主题&lt;a href=&quot;https://github.com/ahonn/hexo-theme-even&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;even&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre
+    
+    </summary>
+    
+    
+      <category term="Hexo theme" scheme="http://yoursite.com/tags/Hexo-theme/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Github</title>
-    <link href="http://yoursite.com/2016/06/19/github/"/>
-    <id>http://yoursite.com/2016/06/19/github/</id>
-    <published>2016-06-19T06:09:35.119Z</published>
-    <updated>2016-06-19T06:09:35.059Z</updated>
+    <link href="http://yoursite.com/2016/06/23/github/"/>
+    <id>http://yoursite.com/2016/06/23/github/</id>
+    <published>2016-06-23T12:05:32.776Z</published>
+    <updated>2016-06-23T12:05:32.744Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git教程&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2014/06/git_remote.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Git远程操作详解&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;安装Git&quot;&gt;&lt;a href=&quot;#安装Git&quot; class=&quot;headerlink&quot; title=&quot;安装Git&quot;&gt;&lt;/a&gt;安装Git&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -38,6 +65,7 @@
 &lt;p&gt;在分支合并的时候用如下命令&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git merge --no-ff -m &lt;span class=&quot;string&quot;&gt;&#39;merge with no-ff&#39;&lt;/span&gt; dev&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;可以强制禁用Fast forward模式，这样不是简单的指针位置换一下，而是可以看到master和分支两条线，这样就能看出来在哪里做过合并。&lt;/p&gt;
 &lt;h4 id=&quot;bug分支&quot;&gt;&lt;a href=&quot;#bug分支&quot; class=&quot;headerlink&quot; title=&quot;bug分支&quot;&gt;&lt;/a&gt;bug分支&lt;/h4&gt;&lt;p&gt;你当前分支的任务没有完成，还不能提交，但是又临时需要先去修改其他分支的bug的时候，可以使用如下操作&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git stash                 &lt;span class=&quot;comment&quot;&gt;# 将当前工作现场临时存储起来&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Saved working directory and index state WIP on dev: 6224937 add merge&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;HEAD is now at 6224937&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git checkout master       &lt;span class=&quot;comment&quot;&gt;# 现在就可以转到其他分支去修复bug什么的了&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ ...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 修复完成后&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git checkout dev          &lt;span class=&quot;comment&quot;&gt;# 回到dev分支&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git stash list            &lt;span class=&quot;comment&quot;&gt;# 可以查看当时的工作现场&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git stash pop             &lt;span class=&quot;comment&quot;&gt;# 恢复工作现场，同时将stash的内容删除&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;自定义git&quot;&gt;&lt;a href=&quot;#自定义git&quot; class=&quot;headerlink&quot; title=&quot;自定义git&quot;&gt;&lt;/a&gt;自定义git&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git config --global color.ui &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git config --global alias.st status       &lt;span class=&quot;comment&quot;&gt;#配置别名st为status&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git config --global alias.lg &lt;span class=&quot;string&quot;&gt;&quot;log --color --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --abbrev-commit&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;远程仓库&quot;&gt;&lt;a href=&quot;#远程仓库&quot; class=&quot;headerlink&quot; title=&quot;远程仓库&quot;&gt;&lt;/a&gt;远程仓库&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;创建SSH KEY&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ ssh-keygen -t rsa -C &lt;span class=&quot;string&quot;&gt;&quot;zjialiang@zju.edu.cn&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 生成的key默认在~/.ssh下，id_rsa是密钥，id_rsa.pub是公钥&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;strong&gt;登陆Github-&amp;gt;Account-&amp;gt;SSH Keys-&amp;gt;Add SSH Key.在Key文本框中粘贴id_rsa.pub文件中的内容&lt;/strong&gt;&lt;/p&gt;
@@ -194,40 +222,6 @@
     
     
       <category term="caffe ubuntu cuda" scheme="http://yoursite.com/tags/caffe-ubuntu-cuda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo</title>
-    <link href="http://yoursite.com/2016/06/03/Hexo/"/>
-    <id>http://yoursite.com/2016/06/03/Hexo/</id>
-    <published>2016-06-03T15:59:07.507Z</published>
-    <updated>2016-06-03T15:59:07.451Z</updated>
-    
-    <content type="html">&lt;p&gt;半路出家，发现计算机实在是有太多够折腾的东西了。今天又折腾Hexo的blog框架折腾了一整天。下面记录一些过程。&lt;/p&gt;
-&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install git	&lt;span class=&quot;comment&quot;&gt;#安装git&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ curl &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt;L https://deb.nodesource.com/setup_6.x | sudo -E bash -&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install -y nodejs	&lt;span class=&quot;comment&quot;&gt;#安装Node.js v6&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ sudo npm install -g hexo-cli	&lt;span class=&quot;comment&quot;&gt;#安装hexo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;安装hexo-browsersync&quot;&gt;&lt;a href=&quot;#安装hexo-browsersync&quot; class=&quot;headerlink&quot; title=&quot;安装hexo-browsersync&quot;&gt;&lt;/a&gt;安装hexo-browsersync&lt;/h2&gt;&lt;p&gt;装这个的目的是为了在vim下编辑md文件的时候可以在网页端进行实时显示&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-browsersync --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;不过后来发现在linux下还不如用&lt;strong&gt;Remarkable&lt;/strong&gt;进行md文件的编辑&lt;/p&gt;
-&lt;h2 id=&quot;Hexo-github&quot;&gt;&lt;a href=&quot;#Hexo-github&quot; class=&quot;headerlink&quot; title=&quot;Hexo-github&quot;&gt;&lt;/a&gt;Hexo-github&lt;/h2&gt;&lt;p&gt;将本地的推到github上，在github上新建仓库名为&lt;br&gt;kalyo-zjl.github.io，固定写法，然后编辑_config.yml文件&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;type&lt;/span&gt;: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  repo: https://github.com/kalyo-zjl/kalyo-zjl.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;安装git的deployer&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;执行hexo deloy,public文件夹下的内容会被push到上面的repo中&lt;br&gt;这样，就可以通过在浏览器中输入 &lt;a href=&quot;http://kalyo-zjl.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://kalyo-zjl.github.io&lt;/a&gt; 来访问&lt;/p&gt;
-&lt;h2 id=&quot;Hexo主题&quot;&gt;&lt;a href=&quot;#Hexo主题&quot; class=&quot;headerlink&quot; title=&quot;Hexo主题&quot;&gt;&lt;/a&gt;Hexo主题&lt;/h2&gt;&lt;p&gt;简洁方便的主题&lt;a href=&quot;https://github.com/ahonn/hexo-theme-even&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;even&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;遇到的坑&quot;&gt;&lt;a href=&quot;#遇到的坑&quot; class=&quot;headerlink&quot; title=&quot;遇到的坑&quot;&gt;&lt;/a&gt;遇到的坑&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://localhost:4000&lt;/a&gt; 半天刷新不出来&lt;br&gt;端口4000被占用了&lt;/li&gt;
-&lt;li&gt;hexo deploy 后没有反应&lt;br&gt;yml文件的书写格式为变量名赋值时必须带空格&lt;br&gt;比如： title: test&lt;/li&gt;
-&lt;li&gt;主题也是个坑。。。每个标题前都有#符号，不知道什么原因&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;半路出家，发现计算机实在是有太多够折腾的东西了。今天又折腾Hexo的blog框架折腾了一整天。下面记录一些过程。&lt;/p&gt;
-&lt;h2 id=&quot;Hexo&quot;&gt;&lt;a href=&quot;#Hexo&quot; class=&quot;headerlink&quot; title=&quot;Hexo&quot;&gt;&lt;/a&gt;Hexo&lt;/h2&gt;&lt;
-    
-    </summary>
-    
-    
-      <category term="Hexo theme" scheme="http://yoursite.com/tags/Hexo-theme/"/>
     
   </entry>
   

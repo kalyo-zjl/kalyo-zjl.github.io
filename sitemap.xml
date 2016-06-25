@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/06/12/learning_linux/</loc>
+    <loc>http://yoursite.com/2016/06/25/Hexo/</loc>
     
-    <lastmod>2016-06-19T06:14:31.995Z</lastmod>
+    <lastmod>2016-06-25T04:43:59.523Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/06/19/github/</loc>
+    <loc>http://yoursite.com/2016/06/23/github/</loc>
     
-    <lastmod>2016-06-19T06:09:35.059Z</lastmod>
+    <lastmod>2016-06-23T12:05:32.744Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/12/learning_linux/</loc>
+    
+    <lastmod>2016-06-19T06:14:31.995Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://yoursite.com/2016/06/04/caffe/</loc>
     
     <lastmod>2016-06-04T04:53:13.092Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/03/Hexo/</loc>
-    
-    <lastmod>2016-06-03T15:59:07.451Z</lastmod>
     
   </url>
   
