@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2016/06/25/Hexo/</loc>
+    <loc>http://yoursite.com/2016/07/07/TensorFlow/</loc>
     
-    <lastmod>2016-06-25T04:43:59.523Z</lastmod>
+    <lastmod>2016-07-07T10:47:16.950Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2016-07-07T09:23:05.930Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/06/Hexo/</loc>
+    
+    <lastmod>2016-07-06T07:44:40.477Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2016-07-06T07:35:35.277Z</lastmod>
     
   </url>
   
@@ -33,20 +54,6 @@
     <loc>http://yoursite.com/2016/06/04/caffe/</loc>
     
     <lastmod>2016-06-04T04:53:13.092Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2016-06-03T15:21:18.779Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2016-06-03T15:20:14.771Z</lastmod>
     
   </url>
   
