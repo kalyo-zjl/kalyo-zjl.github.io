@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/06/12/learning_linux/</loc>
+    
+    <lastmod>2016-07-07T12:11:28.694Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/07/github/</loc>
+    
+    <lastmod>2016-07-07T12:10:29.390Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/07/Vim/</loc>
+    
+    <lastmod>2016-07-07T12:10:06.334Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/04/caffe/</loc>
+    
+    <lastmod>2016-07-07T12:09:51.942Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/07/Hexo/</loc>
     
-    <lastmod>2016-07-07T11:36:53.578Z</lastmod>
+    <lastmod>2016-07-07T11:38:15.698Z</lastmod>
     
   </url>
   
@@ -26,34 +54,6 @@
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2016-07-06T07:35:35.277Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/23/github/</loc>
-    
-    <lastmod>2016-06-23T12:05:32.744Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/12/learning_linux/</loc>
-    
-    <lastmod>2016-06-19T06:14:31.995Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/07/Vim/</loc>
-    
-    <lastmod>2016-06-17T05:07:09.444Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2016/06/04/caffe/</loc>
-    
-    <lastmod>2016-06-04T04:53:13.092Z</lastmod>
     
   </url>
   
