@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/08/14/Ubuntu16-04-Cuda8-0-GeForce-gtx1080/</loc>
+    
+    <lastmod>2016-08-14T05:29:40.947Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/08/14/solving-login-loop-after-installing-nvidia/</loc>
+    
+    <lastmod>2016-08-14T03:07:05.658Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/07/30/Anaconda/</loc>
     
-    <lastmod>2016-07-30T05:25:37.782Z</lastmod>
+    <lastmod>2016-07-30T08:21:59.150Z</lastmod>
     
   </url>
   
