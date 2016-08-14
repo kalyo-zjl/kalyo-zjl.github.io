@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-14T05:29:40.947Z</updated>
+  <updated>2016-08-14T05:42:54.187Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/08/14/Ubuntu16-04-Cuda8-0-GeForce-gtx1080/"/>
     <id>http://yoursite.com/2016/08/14/Ubuntu16-04-Cuda8-0-GeForce-gtx1080/</id>
     <published>2016-08-14T02:55:28.000Z</published>
-    <updated>2016-08-14T05:29:40.947Z</updated>
+    <updated>2016-08-14T05:42:54.187Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&amp;#x6765;&amp;#x516C;&amp;#x53F8;&amp;#x5B9E;&amp;#x4E60;&amp;#xFF0C;&amp;#x7B2C;&amp;#x4E00;&amp;#x4EF6;&amp;#x4E8B;&amp;#x5C31;&amp;#x662F;&amp;#x88C5;&amp;#x670D;&amp;#x52A1;&amp;#x5668;&amp;#x3002;&amp;#x82B1;&amp;#x4E86;&amp;#x4E00;&amp;#x6574;&amp;#x5929;&amp;#x7684;&amp;#x65F6;&amp;#x95F4;&amp;#x88C5;&amp;#x597D;&amp;#x4E86;&amp;#x4E00;&amp;#x53F0;&amp;#x670D;&amp;#x52A1;&amp;#x5668; Ubuntu14.04+Cuda7.5+K40 * 2&amp;#x5E76;&amp;#x914D;&amp;#x597D;&amp;#x4E86;&amp;#x76F8;&amp;#x5E94;&amp;#x7684;&amp;#x73AF;&amp;#x5883;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;caffe&amp;#x7B49;&amp;#xFF0C;&amp;#x4E00;&amp;#x5207;&amp;#x90FD;&amp;#x6BD4;&amp;#x8F83;&amp;#x987A;&amp;#x5229;&amp;#x3002;&amp;#x53E6;&amp;#x5916;&amp;#x4E00;&amp;#x53F0;&amp;#x670D;&amp;#x52A1;&amp;#x5668;&amp;#x662F;2&amp;#x5757;1080&amp;#x7684;&amp;#x663E;&amp;#x5361;&amp;#xFF0C;&amp;#x4E00;&amp;#x76F4;&amp;#x90FD;&amp;#x6CA1;&amp;#x6709;&amp;#x88C5;&amp;#x8D77;&amp;#x6765;&amp;#xFF0C;&amp;#x6240;&amp;#x4EE5;&amp;#x6628;&amp;#x5929;&amp;#x53C8;&amp;#x82B1;&amp;#x4E86;&amp;#x4E00;&amp;#x5929;&amp;#x7684;&amp;#x65F6;&amp;#x95F4;&amp;#x53BB;&amp;#x6298;&amp;#x817E;&amp;#x3002;&lt;/li&gt;
@@ -35,7 +35,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;&amp;#x5B89;&amp;#x88C5;Ubuntu16-04&quot;&gt;&lt;a href=&quot;#&amp;#x5B89;&amp;#x88C5;Ubuntu16-04&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x5B89;&amp;#x88C5;Ubuntu16.04&quot;&gt;&lt;/a&gt;&amp;#x5B89;&amp;#x88C5;Ubuntu16.04&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&amp;#x6B63;&amp;#x5E38;&amp;#x5236;&amp;#x4F5C;U&amp;#x76D8;&amp;#x542F;&amp;#x52A8;&amp;#x76D8;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x5B89;&amp;#x88C5;&amp;#x5C31;&amp;#x53EF;&amp;#x4EE5;&amp;#x3002;&amp;#x4E0D;&amp;#x8FC7;&amp;#x8FD9;&amp;#x4E2A;Ubuntu&amp;#x955C;&amp;#x50CF;&amp;#x597D;&amp;#x50CF;&amp;#x521A;&amp;#x88C5;&amp;#x5B8C;&amp;#x7CFB;&amp;#x7EDF;&amp;#x5C31;&amp;#x4F1A;&amp;#x53D1;&amp;#x751F;&amp;#x767B;&amp;#x9646;&amp;#x540E;&amp;#x65E0;&amp;#x6CD5;&amp;#x8FDB;&amp;#x5165;&amp;#x754C;&amp;#x9762;&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x3002;&amp;#x5177;&amp;#x4F53;&amp;#x7684;&amp;#x89E3;&amp;#x51B3;&amp;#x529E;&amp;#x6CD5;&amp;#x53EF;&amp;#x4EE5;&amp;#x53C2;&amp;#x7167;&amp;#x4E0A;&amp;#x4E00;&amp;#x7BC7;blog&amp;#xFF0C;&lt;a href=&quot;&quot;&gt;solving login loop after installing nvidia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;#x6B63;&amp;#x5E38;&amp;#x5236;&amp;#x4F5C;U&amp;#x76D8;&amp;#x542F;&amp;#x52A8;&amp;#x76D8;&amp;#xFF0C;&amp;#x7136;&amp;#x540E;&amp;#x5B89;&amp;#x88C5;&amp;#x5C31;&amp;#x53EF;&amp;#x4EE5;&amp;#x3002;&amp;#x4E0D;&amp;#x8FC7;&amp;#x8FD9;&amp;#x4E2A;Ubuntu&amp;#x955C;&amp;#x50CF;&amp;#x597D;&amp;#x50CF;&amp;#x521A;&amp;#x88C5;&amp;#x5B8C;&amp;#x7CFB;&amp;#x7EDF;&amp;#x5C31;&amp;#x4F1A;&amp;#x53D1;&amp;#x751F;&amp;#x767B;&amp;#x9646;&amp;#x540E;&amp;#x65E0;&amp;#x6CD5;&amp;#x8FDB;&amp;#x5165;&amp;#x754C;&amp;#x9762;&amp;#x7684;&amp;#x60C5;&amp;#x51B5;&amp;#x3002;&amp;#x5177;&amp;#x4F53;&amp;#x7684;&amp;#x89E3;&amp;#x51B3;&amp;#x529E;&amp;#x6CD5;&amp;#x53EF;&amp;#x4EE5;&amp;#x53C2;&amp;#x7167;&amp;#x4E0A;&amp;#x4E00;&amp;#x7BC7;blog&amp;#xFF0C;&lt;a href=&quot;http://kalyo-zjl.github.io/2016/08/14/solving-login-loop-after-installing-nvidia/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;solving login loop after installing nvidia&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;#x4E5F;&amp;#x53EF;&amp;#x4EE5;&amp;#x5148;&amp;#x4E0D;&amp;#x7528;&amp;#x7BA1;&amp;#x8FD9;&amp;#x79CD;&amp;#x60C5;&amp;#x51B5;&amp;#xFF0C;&amp;#x76F4;&amp;#x63A5;ctrl-alt-F1&amp;#x8FDB;&amp;#x5165;tty&amp;#x754C;&amp;#x9762;&amp;#x8FDB;&amp;#x884C;&amp;#x64CD;&amp;#x4F5C;&amp;#x3002;&amp;#x95EE;&amp;#x9898;&amp;#x7684;&amp;#x4EA7;&amp;#x751F;&amp;#x662F;&amp;#x7531;&amp;#x4E8E;&amp;#x663E;&amp;#x5361;&amp;#x9A71;&amp;#x52A8;&amp;#x7684;&amp;#x7F18;&amp;#x6545;&amp;#xFF0C;&amp;#x7B49;&amp;#x88C5;&amp;#x5B8C;&amp;#x663E;&amp;#x5361;&amp;#x9A71;&amp;#x52A8;&amp;#x5C31;&amp;#x80FD;&amp;#x591F;&amp;#x89E3;&amp;#x51B3;&amp;#x3002;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;&amp;#x66F4;&amp;#x65B0;kernel-option&quot;&gt;&lt;a href=&quot;#&amp;#x66F4;&amp;#x65B0;kernel-option&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x66F4;&amp;#x65B0;kernel (option)&quot;&gt;&lt;/a&gt;&amp;#x66F4;&amp;#x65B0;kernel (option)&lt;/h2&gt;&lt;ul&gt;
